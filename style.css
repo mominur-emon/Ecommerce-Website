@@ -87,7 +87,7 @@ body {
 #hero {
   background-image: url(img/hero4.png);
   height: 90vh;
-  width: 100%;
+  width: auto;
   background-size: cover;
   background-position: top 25% right 0;
   padding: 0 80px;
@@ -113,3 +113,120 @@ body {
   font-weight: 700;
   font-size: 15px;
 }
+/*home end*/
+
+/*feature start*/
+#feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#feature .fe-box {
+  width: 150px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgb(204, 231, 208);
+  border-radius: 4px;
+  margin: 15px 0;
+}
+#feature .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 60, 220, 0.02);
+}
+#feature .fe-box h6 {
+  display: inline-block;
+  padding: 9px 8px 9px 8px;
+  line-height: 1px;
+  border-radius: 4px;
+  color: rgb(23, 171, 161);
+  background-color: lightcyan;
+}
+#feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#feature .fe-box:nth-child(2) h6 {
+  background-color: lightpink;
+}
+#feature .fe-box:nth-child(3) h6 {
+  background-color: lightgreen;
+}
+#feature .fe-box:nth-child(4) h6 {
+  background-color: lightblue;
+}
+#feature .fe-box:nth-child(5) h6 {
+  background-color: lightsteelblue;
+}
+#feature .fe-box:nth-child(6) h6 {
+  background-color: lightyellow;
+}
+
+/*feature end*/
+
+/*feature product start*/
+#product1 {
+  text-align: center;
+}
+#product1 .pro {
+  width: 20%;
+  min-width: 200px;
+  padding: 10px 12px;
+  border: 1px solid rgb(204, 231, 208);
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+#product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#product1 .pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+#product1 .pro .des span {
+  color: gray;
+  font-size: 12px;
+}
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: rgb(26, 26, 26);
+  font-size: 14px;
+}
+#product1 .pro .des i {
+  font-size: 12px;
+  color: lightsalmon;
+}
+#product1 .pro .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: lightseagreen;
+}
+#product1 .pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: rgb(232, 246, 234);
+  font-weight: 500;
+  color: lightseagreen;
+  border: 1px solid rgb(204, 231, 208);
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+#product1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+/*feature product end*/
