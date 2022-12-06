@@ -34,6 +34,29 @@ p {
 .section-m1 {
   margin: 40px 0;
 }
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.2s;
+}
 body {
   width: 100%;
 }
@@ -212,15 +235,15 @@ body {
 #product1 .pro .cart {
   width: 40px;
   height: 40px;
-  line-height: 40px;
-  border-radius: 50px;
-  background-color: rgb(232, 246, 234);
-  font-weight: 500;
+  background-color: rgb(227, 230, 243);
   color: lightseagreen;
-  border: 1px solid rgb(204, 231, 208);
   position: absolute;
   bottom: 20px;
   right: 10px;
+  border-radius: 50px;
+  border: 1px solid rgb(204, 231, 208);
+  line-height: 40px;
+  font-weight: bold;
 }
 #product1 .pro-container {
   display: flex;
@@ -228,5 +251,161 @@ body {
   padding-top: 20px;
   flex-wrap: wrap;
 }
-
 /*feature product end*/
+/* banner start*/
+#banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(img/banner/b2.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+#banner h4 {
+  color: white;
+  font-size: 16px;
+}
+#banner h2 {
+  color: white;
+  font-size: 30px;
+  padding: 10px 0;
+}
+#banner h2 span {
+  color: salmon;
+}
+#banner button:hover {
+  background: lightseagreen;
+  color: white;
+}
+/*banner end*/
+/*small banner start*/
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url(img/banner/b17.jpg);
+  min-width: 530px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+#sm-banner .banner-box2 {
+  background-image: url(img/banner/b10.jpg);
+}
+#sm-banner h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sm-banner h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+#sm-banner span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button {
+  background-color: lightseagreen;
+  border: 1px solid lightseagreen;
+}
+/*small banner end*/
+/*another small banner start*/
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#banner3 .banner-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url(img/banner/b7.jpg);
+  min-width: 28%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#banner3 .banner-box2 {
+  background-image: url(img/banner/b4.jpg);
+}
+#banner3 .banner-box3 {
+  background-image: url(img/banner/b18.jpg);
+}
+#banner3 h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 22px;
+}
+#banner3 h3 {
+  color: crimson;
+  font-weight: 800;
+  font-size: 15px;
+}
+/*another small banner end*/
+/*News letter start*/
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  background-image: url("img/banner/b14.png");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: rgb(4, 30, 66);
+}
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+#newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+}
+#newsletter p span {
+  color: yellowgreen;
+}
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter button {
+  background-color: lightseagreen;
+  color: white;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+/*news latter end */
