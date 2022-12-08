@@ -1,3 +1,4 @@
+/*navbar start*/
 const bar = document.getElementById("bar");
 const close = document.getElementById("close");
 const nav = document.getElementById("navbar");
@@ -13,3 +14,21 @@ if (close) {
     nav.classList.remove("active");
   });
 }
+/*navbar end*/
+/*singleproduct img start*/
+var MainImg = document.getElementById("MainImg");
+var smalling = document.getElementsByClassName("small-img");
+
+smalling[0].onclick = function () {
+  MainImg.src = smalling[0].src;
+};
+smalling[1].onclick = function () {
+  MainImg.src = smalling[1].src;
+};
+smalling[2].onclick = function () {
+  MainImg.src = smalling[2].src;
+};
+smalling[3].onclick = function () {
+  MainImg.src = smalling[3].src;
+};
+/*singleproduct img end*/
